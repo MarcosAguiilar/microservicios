@@ -1,0 +1,36 @@
+{
+    "configurations": [
+        
+        {
+            "type": "java",
+            "name": "Spring Boot-MsvcProductsApplication<msvc-products>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.springcloud.msvc.products.MsvcProductsApplication",
+            "projectName": "msvc-products",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env",
+            "vmArgs": " -Dcom.sun.management.jmxremote -Dcom.sun.management.jmxremote.port=53533 -Dcom.sun.management.jmxremote.authenticate=false -Dcom.sun.management.jmxremote.ssl=false -Dspring.jmx.enabled=true -Djava.rmi.server.hostname=localhost -Dspring.application.admin.enabled=true -Dspring.boot.project.name=msvc-products"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-MsvcItemsApplication<msvc-items>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.marcos.springcloud.mscv.items.MsvcItemsApplication",
+            "projectName": "msvc-items",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-MsvcItemsApplication<msvc-items>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.andres.springcloud.msvc.items.MsvcItemsApplication",
+            "projectName": "msvc-items",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
